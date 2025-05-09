@@ -1,4 +1,4 @@
-package gestioBiblioteca2;
+package gestioBiblioteca;
 
 public class Llibre {	
 	private String titol;

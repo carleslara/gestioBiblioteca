@@ -1,4 +1,4 @@
-package gestioBiblioteca2;
+package gestioBiblioteca;
 
 import java.util.ArrayList;
 import java.util.List;
