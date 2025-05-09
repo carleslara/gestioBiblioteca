@@ -28,7 +28,7 @@ public class Biblioteca {
         return null;
     }
     
-    // Buscar llibre sense tenir en compte els accents
+    
     public Llibre buscarLlibreSenseAccents(String titol) {
         String titolSenseAccent = removeAccents(titol);
         for (Llibre llibre : llibres) {
@@ -39,7 +39,6 @@ public class Biblioteca {
         return null;
     }
     
-    //Cosa rara de la ostia
     private String removeAccents(String text) {
         return Normalizer.normalize(text, Normalizer.Form.NFD)
                          .replaceAll("\\p{InCombiningDiacriticalMarks}+", "");
