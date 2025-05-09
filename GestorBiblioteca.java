@@ -1,4 +1,4 @@
-package gestioBiblioteca2;
+package gestioBiblioteca;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
